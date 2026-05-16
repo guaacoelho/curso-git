@@ -1,13 +1,13 @@
 from functions import soma, subtrai, divisao
 
-a = 2
-b = 3
+var1 = 2
+var2 = 3
 
-c = soma(2, 3)
+c = soma(var1, var2)
 
-d = subtrai(a, b)
+d = subtrai(var1, var2)
 
-f = divisao(a,b)
+f = divisao(var1, var2)
 
 print(f"subtração: {c}")
 print(f"subtração: {d}")
